@@ -1,0 +1,24 @@
+{
+  "name": "agent-message-router",
+  "version": "1.0.0",
+  "description": "Intelligent message routing system for multi-agent communication with priority queuing, delivery guarantees, and subscription patterns",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "start": "bun src/index.ts"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "messaging",
+    "router",
+    "priority-queue",
+    "pubsub"
+  ],
+  "author": "Retsumdk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
